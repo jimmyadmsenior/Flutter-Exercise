@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_exercises_jimmy/pages/desafio1.dart';
 
+import 'pages/Teste.dart';
+
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
@@ -12,7 +14,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const Desafio1(),
+      home: const MeuCardCustomizado(),
       debugShowCheckedModeBanner: false,
     );
   }
